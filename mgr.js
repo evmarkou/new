@@ -37,7 +37,7 @@ define(['managerAPI',
         //Select randomly what attribute words to see. 
         //Based on Axt, Feng, & Bar-Anan (2021).
         posWords : API.shuffle([
-            'Love', 'Cheer', 'Friend', 'Pleasure',
+            'Lo111ve', 'Cheer', 'Friend', 'Pleasure',
             'Adore', 'Cheerful', 'Friendship', 'Joyful', 
             'Smiling','Cherish', 'Excellent', 'Glad', 
             'Joyous', 'Spectacular', 'Appealing', 'Delight', 
