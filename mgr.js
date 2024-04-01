@@ -1,3 +1,16 @@
+
+            fetch("https://pipe.jspsych.org/api/data/", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                Accept: "*/*",
+              },
+              body: JSON.stringify({
+                experimentID: "Rv9ZEMwm7DqO",
+                filename: "UNIQUE_FILENAME.csv",
+                data: dataAsString,
+              }),
+            });
 define(['managerAPI',
 		'https://cdn.jsdelivr.net/gh/minnojs/minno-datapipe@1.*/datapipe.min.js'], function(Manager){
 
